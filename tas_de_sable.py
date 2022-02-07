@@ -8,17 +8,24 @@
 ######################################################
 
 
-
 import tkinter as tk
+
 # creer une fenetre
 fenetre = tk.Tk()
 
+
 # perso fenetre
-fenetre.title("Canevas")
-fenetre.geometry("750x750")
-fenetre.minsize(480, 360)
+fenetre.title("Generateur Couleur")
+fenetre.geometry("850x850")
+
+# Creer un Canevas
+caneva = tk.Canvas(fenetre, bg='#8FB1CE', width=500, height=800)
+caneva.pack()
 
 
+# Ajouter un Bouton
+color_button = tk.Button('', text="Change Color", font=("Courrier", 11), fg='black',)
+color_button.pack
 
 
 # afficher
