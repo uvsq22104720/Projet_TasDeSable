@@ -9,14 +9,13 @@
 
 
 
-from tkinter import *
-
+import tkinter as tk
 # creer une fenetre
-fenetre = Tk()
+fenetre = tk.Tk()
 
 # perso fenetre
 fenetre.title("Canevas")
-fenetre.geometry("750*750")
+fenetre.geometry("750x750")
 fenetre.minsize(480, 360)
 
 
