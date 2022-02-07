@@ -8,6 +8,8 @@
 ######################################################
 
 
+
+
 import tkinter as tk
 
 # creer une fenetre
@@ -24,7 +26,8 @@ caneva.pack()
 
 
 # Ajouter un Bouton
-color_button = tk.Button('', text="Change Color", font=("Courrier", 11), fg='black',)
+color_button = tk.Button(fenetre, text="Change Color", font=("Century Gothic", 20), fg='black')
+color_button.place(x=7, y=50)
 color_button.pack
 
 
