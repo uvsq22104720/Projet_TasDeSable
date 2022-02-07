@@ -1,4 +1,3 @@
-# Projet_TasDeSable
 
 ######################################################
 # groupe MI TD01
@@ -9,3 +8,19 @@
 ######################################################
 
 
+
+from tkinter import *
+
+# creer une fenetre
+fenetre = Tk()
+
+# perso fenetre
+fenetre.title("Canevas")
+fenetre.geometry("750*750")
+fenetre.minsize(480, 360)
+
+
+
+
+# afficher
+fenetre.mainloop()
