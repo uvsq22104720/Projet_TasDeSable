@@ -24,11 +24,17 @@ fenetre.geometry("850x850")
 caneva = tk.Canvas(fenetre, bg='#8FB1CE', width=500, height=800)
 caneva.pack()
 
-
+# Fonction pour change_ColorCanvas
+def change_ColorCanvas():
+    caneva.config(bg='purple')
+    
 # Ajouter un Bouton
-color_button = tk.Button(fenetre, text="Change Color", font=("Century Gothic", 20), fg='black')
+color_button = tk.Button(fenetre, text="Change Color", font=("Century Gothic", 20), fg='black', command=change_ColorCanvas)
 color_button.place(x=7, y=50)
 color_button.pack
+
+
+
 
 
 # afficher
