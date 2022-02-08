@@ -21,8 +21,9 @@ fenetre.title("Generateur Couleur")
 fenetre.geometry("850x850")
 
 # Creer un Canevas
-caneva = tk.Canvas(fenetre, bg='#8FB1CE', width=500, height=800)
+caneva = tk.Canvas(fenetre, bg='#8FB1CE', width=500, height=800, highlightthickness=10, highlightbackground="black")
 caneva.pack()
+
 
 # Fonction pour change_ColorCanvas
 def change_ColorCanvas():
